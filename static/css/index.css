@@ -117,13 +117,44 @@ body {
 .results-carousel .item {
   margin: 5px;
   overflow: hidden;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 0;
 }
 
 .results-carousel video {
   margin: 0;
+  /* margin-bottom: 50px; */
+  /* padding-bottom: 50px; */
 }
+
+.carousel-container {
+  /* width: 80%; */
+  height: 50%;
+  display: flex;  /* Ensures that items are laid out as a row */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  /* margin-bottom: 50px; */
+  /* padding-bottom: 50px; */
+}
+
+.carousel-item {
+  /* width: 100%; Take the full width to prevent multiple items showing */
+  max-height: 80%;
+  text-align: center; /* Centers the image within the item */
+  /* margin-bottom: 50px; */
+  /* padding-bottom: 50px; */
+}
+
+.carousel-image {
+  max-width: 100%; /* Ensures the image does not exceed the container width */
+  /* height: auto; Maintains aspect ratio */
+  display: inline-block; /* Aligns the image properly */
+  align-items:center;
+  /* margin-top: auto; */
+  margin-bottom: 20px;
+  /* padding-bottom: 20px; */
+}
+
 
 .slider-pagination .slider-page {
   background: #000000;
